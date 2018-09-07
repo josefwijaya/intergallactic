@@ -1,0 +1,1 @@
+Search.setIndex({docnames:["index"],envversion:55,filenames:["index.rst"],objects:{},objnames:{},objtypes:{},terms:{complic:0,index:0,just:0,modul:0,omg:0,page:0,sai:0,search:0,thi:0,wanna:0},titles:["Welcome to Intergallactic\u2019s documentation!"],titleterms:{anoth:0,document:0,guid:0,header:0,indic:0,intergallact:0,simpl:0,tabl:0,welcom:0}})

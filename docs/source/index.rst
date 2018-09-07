@@ -1,0 +1,24 @@
+Welcome to Intergallactic's documentation!
+==========================================
+
+
+Another simple header
+=====================
+
+At this i just wanna say omg... this is so complicated;;
+
+Guide
+^^^^^
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
