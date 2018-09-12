@@ -12,9 +12,14 @@ the `Intergallactic` object.
   const Intergallactic = require('intergallactic');
   const intergallactic = new Intergallactic({ 'http://localhost:1337', protocol: 'jsonrpc' });
 
-Upon instantiating Intergallactic, it will expose main modules to interract
+Upon instantiating Intergallactic, it will return main modules to interract
 with gallactic blockchain node such as following:
-  - account
+
+- account
+- gltc
+- Txn
+- Contract
+- utils
 
 account
 -------
