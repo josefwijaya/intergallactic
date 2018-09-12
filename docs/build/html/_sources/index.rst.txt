@@ -1,24 +1,24 @@
-Welcome to Intergallactic's documentation!
-==========================================
 
+.. include:: include_announcement.rst
 
-Another simple header
-=====================
+Intergallactic - Gallactic JavaScript API
+=========================================
+Intergallactic is a collection of libraries which allow you to interact with
+a local or remote ethereum node by using a HTTP connection
 
-At this i just wanna say omg... this is so complicated
+The following documentation will guide you through installing and running Intergallactic.
+Besides that, This documentation also provide reference of API calls with examples.
 
-Guide
-^^^^^
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+  :maxdepth: 2
+  :caption: Introduction:
+
+  getting-started
 
 
+.. toctree::
+  :maxdepth: 2
+  :caption: API Reference
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+  intergallactic

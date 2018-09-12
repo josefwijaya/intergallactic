@@ -1,0 +1,5 @@
+Intergallactic
+==============
+
+This is the main class of intergallactic library that helps to interact with
+gallactic blockchain node
