@@ -1,6 +1,7 @@
 
 .. include:: include_announcement.rst
 
+=========================================
 Intergallactic - Gallactic JavaScript API
 =========================================
 Intergallactic is a collection of libraries which allow you to interact with
@@ -12,7 +13,7 @@ Besides that, This documentation also provide reference of API calls with exampl
 
 .. toctree::
   :maxdepth: 2
-  :caption: Introduction:
+  :caption: Introduction
 
   getting-started
 
@@ -22,3 +23,8 @@ Besides that, This documentation also provide reference of API calls with exampl
   :caption: API Reference
 
   intergallactic
+  intergallactic.account
+  intergallactic.gltc
+  intergallactic.txn
+  intergallactic.contract
+  intergallactic.utils

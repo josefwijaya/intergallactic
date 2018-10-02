@@ -1,0 +1,7 @@
+.. _gltc:
+
+===================
+intergallactic.gltc
+===================
+
+some text here

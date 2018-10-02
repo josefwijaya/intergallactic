@@ -1,3 +1,4 @@
+===============
 Getting Started
 ===============
 
@@ -10,13 +11,14 @@ in gallactic ecosystem.
 - ``Intergallactic.Contract``
 - ``Intergallactic.utils``
 
+
 Importing Intergallactic
 ========================
 
 To import intergallactic in your project, first you need to get it installed by
 using following methods:
 
-- npm: ``npm install intergallactic```
+- npm: ``npm install intergallactic``
 
 After the installation done, you need to create Intergallactic instance. To instantiate
 intergallactic, you will need a local or remote gallactic node.
@@ -28,6 +30,6 @@ intergallactic, you will need a local or remote gallactic node.
   const intergallactic = new Intergallactic({ url: 'http://localhost:1337', protocol: 'jsonrpc' });
 
   // in browser using pure javascript
-  const intergallactic = new Intergallactic('http://localhost:1337');
+  const intergallactic = new Intergallactic({ url: 'http://localhost:1337', protocol: 'jsonrpc' });
 
 That's it! now you can use the ``intergallactic`` object.

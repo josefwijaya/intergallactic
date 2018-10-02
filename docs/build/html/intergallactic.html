@@ -15,6 +15,7 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="intergallactic.account" href="intergallactic.account.html" />
     <link rel="prev" title="Getting Started" href="getting-started.html" /> 
   </head><body>
     <div class="related" role="navigation" aria-label="related navigation">
@@ -23,6 +24,9 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="intergallactic.account.html" title="intergallactic.account"
+             accesskey="N">next</a> |</li>
         <li class="right" >
           <a href="getting-started.html" title="Getting Started"
              accesskey="P">previous</a> |</li>
@@ -37,25 +41,24 @@
             
   <div class="section" id="intergallactic">
 <h1>Intergallactic<a class="headerlink" href="#intergallactic" title="Permalink to this headline">¶</a></h1>
-<p>This is the main class of intergallactic library that act as a parent of all
-modules that helps to interact with gallactic blockchain node.</p>
-<p>To start using intergallactic to interract with the node, you need to instantiate
-the <cite>Intergallactic</cite> object.</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kr">const</span> <span class="nx">Intergallactic</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;intergallactic&#39;</span><span class="p">);</span>
-<span class="kr">const</span> <span class="nx">intergallactic</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Intergallactic</span><span class="p">({</span> <span class="s1">&#39;http://localhost:1337&#39;</span><span class="p">,</span> <span class="nx">protocol</span><span class="o">:</span> <span class="s1">&#39;jsonrpc&#39;</span> <span class="p">});</span>
-</pre></div>
-</div>
-<p>Upon instantiating Intergallactic, it will return main modules to interract
-with gallactic blockchain node such as following:</p>
+<p>Upon instantiation of <em>Intergallactic</em>, it will returns an object</p>
+<p><strong>Returns:</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">Object</span></code>: list of modules:</p>
 <ul class="simple">
-<li>account</li>
-<li>gltc</li>
-<li>Txn</li>
-<li>Contract</li>
-<li>utils</li>
+<li><code class="docutils literal notranslate"><span class="pre">Intergallactic.account</span></code>: Account related module. see <a class="reference internal" href="intergallactic.account.html#account"><span class="std std-ref">account</span></a> for more.</li>
+<li><code class="docutils literal notranslate"><span class="pre">Intergallactic.gltc</span></code>: Gallactic blockhain related module. see <a class="reference internal" href="intergallactic.gltc.html#gltc"><span class="std std-ref">gallactic</span></a> for more.</li>
+<li><code class="docutils literal notranslate"><span class="pre">Intergallactic.Txn</span></code>: Transaction related module. see <a class="reference internal" href="intergallactic.txn.html#txn"><span class="std std-ref">transaction</span></a> for more.</li>
+<li><code class="docutils literal notranslate"><span class="pre">Intergallactic.Contract</span></code>: Contract related module. see <a class="reference internal" href="intergallactic.contract.html#contract"><span class="std std-ref">contract</span></a> for more.</li>
+<li><code class="docutils literal notranslate"><span class="pre">Intergallactic.utils</span></code>: Utilities related module. see <a class="reference internal" href="intergallactic.utils.html#utils"><span class="std std-ref">utilities</span></a> for more.</li>
 </ul>
-<div class="section" id="account">
-<h2>account<a class="headerlink" href="#account" title="Permalink to this headline">¶</a></h2>
+<p><strong>Example:</strong></p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="c1">// in node.js</span>
+<span class="kr">const</span> <span class="nx">Intergallactic</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;intergallactic&#39;</span><span class="p">);</span>
+<span class="kr">const</span> <span class="nx">intergallactic</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Intergallactic</span><span class="p">({</span> <span class="nx">url</span><span class="o">:</span> <span class="s1">&#39;http://localhost:1337&#39;</span><span class="p">,</span> <span class="nx">protocol</span><span class="o">:</span> <span class="s1">&#39;jsonrpc&#39;</span> <span class="p">});</span>
+
+<span class="c1">// intergallactic consists of main modules to interact with Gallactic</span>
+<span class="c1">// e.g: intergallactic.account, intergallactic.gltc, intergallactic.Txn</span>
+</pre></div>
 </div>
 </div>
 
@@ -65,17 +68,12 @@ with gallactic blockchain node such as following:</p>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-  <h3><a href="index.html">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">Intergallactic</a><ul>
-<li><a class="reference internal" href="#account">account</a></li>
-</ul>
-</li>
-</ul>
-
   <h4>Previous topic</h4>
   <p class="topless"><a href="getting-started.html"
                         title="previous chapter">Getting Started</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="intergallactic.account.html"
+                        title="next chapter">intergallactic.account</a></p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
@@ -105,6 +103,9 @@ with gallactic blockchain node such as following:</p>
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
+        <li class="right" >
+          <a href="intergallactic.account.html" title="intergallactic.account"
+             >next</a> |</li>
         <li class="right" >
           <a href="getting-started.html" title="Getting Started"
              >previous</a> |</li>
