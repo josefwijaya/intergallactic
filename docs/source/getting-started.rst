@@ -27,9 +27,9 @@ intergallactic, you will need a local or remote gallactic node.
 
   // in node.js
   const Intergallactic = require('intergallactic');
-  const intergallactic = new Intergallactic({ url: 'http://localhost:1337', protocol: 'jsonrpc' });
+  const intergallactic = new Intergallactic({ url: 'http://localhost:1337/rpc', protocol: 'jsonrpc' });
 
   // in browser using pure javascript
-  const intergallactic = new Intergallactic({ url: 'http://localhost:1337', protocol: 'jsonrpc' });
+  const intergallactic = new Intergallactic({ url: 'http://localhost:1337/rpc', protocol: 'jsonrpc' });
 
 That's it! now you can use the ``intergallactic`` object.
